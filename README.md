@@ -56,7 +56,7 @@ python 3_convert_csv_to_hdf.py --dir test_yyyy_mm_dd
 
 The simulation script can be called with a command line argument pointing to a config file in order to run a simulation with different parameters or attributes. A template file lives ``config/template.yaml`` which contains all of the options available. In order to run a simulation with a specific config file simply call the simulation script as:
 ```
-python 2_simulate --config my_config.yaml
+python 2_simulate.py --config my_config.yaml
 ```
 and the output will be created at ``out/my_config_yyyy_mm_dd``
 

@@ -27,8 +27,6 @@ RUN apt-get update -y && \
 #    libpq-dev \
 #    postgresql
 
-RUN git clone https://github.com/smatsmats/comorbidityPaper.git
-
 RUN locale-gen en_US.UTF-8
 # locale.getdefaultlocale() searches in this order
 ENV LANGUAGE en_US.UTF-8
